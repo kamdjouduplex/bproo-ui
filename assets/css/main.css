@@ -1,0 +1,118 @@
+
+/**************header****************************************************/
+body {
+   	background: #f5f5f5;
+    color: #888;
+    font: 300 16px/22px 'Nunito', "Open Sans", Arial, sans-serif;
+}
+
+header{
+ display: block;
+ position: fixed;
+ background-color: #fff !important;
+ width: 100%;
+ padding:0;
+ height: 100px;
+ box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.left-floats{
+	float: left;
+}
+
+.right-floats{
+	float: right;
+}
+
+
+.logo {
+    border-top: 6px solid #20B2AA;
+    float: left;
+    padding: 14px 0 22px;
+    
+}
+
+/*****Menu************/
+.menu-top{
+	margin-top: 45px;
+}
+
+.menu-top ul li {
+	display: inline-block;
+	font-size: 16px;
+
+}
+
+.ml-3{
+	margin-left: 30px; 
+}
+.btn{
+	-webkit-border-radius: 10em !important;
+    border-radius: 10em !important;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+    border: none !important;
+}
+
+.shadow{
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+	border: none !important;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15) !important;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15) !important;
+    outline: 0;
+}
+
+.btn-sm{
+	padding: .7rem .9rem !important;
+    font-size: .74rem !important;
+	text-transform: uppercase;
+}
+
+.btn-md{
+	padding: .7rem 3rem !important;
+    font-size: 1rem !important;
+	text-transform: uppercase;
+}
+
+.btn-success {
+	background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
+    color: #fff;
+}
+
+
+a{
+	text-decoration: none;
+	color: #20B2AA;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #127b75;
+	font-weight: 300;
+}
+
+/*******************content**********************/
+.wraper{
+	padding: 100px 30px;
+}
+
+footer{
+	clear: both;
+}
+
+
+.fa{
+	font-weight: 500;
+	font-size: 30px;
+}
+
+footer{
+	padding: 10px;
+	background: #fff;
+}

@@ -1,0 +1,57 @@
+.form-layout{
+    background-color: #fff;
+    margin-top: 15%;
+    border-radius: 6px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.form-header{
+    width: 100%;
+    margin: -60px auto 40px auto;
+    height: 80px;
+    background: -webkit-linear-gradient(50deg,#8854d0,#3867d6)!important;
+    background: -o-linear-gradient(50deg,#8854d0,#3867d6)!important;
+    background: linear-gradient(40deg,#8854d0,#3867d6)!important;
+    color:#fff;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.btn-outline-default{
+    border: 2px solid #2bbbad!important;
+    background-color: transparent!important;
+    color: #2bbbad!important;
+}
+
+.btn-outline-facebook{
+    border: 2px solid #3B5998!important;
+    background-color: transparent!important;
+    color: #3B5998!important;
+    width: 100%;
+}
+
+.btn-outline-google{
+    border: 2px solid #DB4437!important;
+    background-color: transparent!important;
+    color: #DB4437!important;
+     width: 100%;
+}
+
+.btn-outline-twitter{
+    border: 2px solid #1DA1F2!important;
+    background-color: transparent!important;
+    color: #1DA1F2!important;
+    width: 100%;
+}
+
+.btn-outline-github{
+    border: 2px solid #333!important;
+    background-color: transparent!important;
+    color: #333!important;
+    width: 100%;
+}
+
+.social-login-container{
+    margin: 7px 10px;
+}
