@@ -3,7 +3,8 @@
 <head>
 	<title>Bproo | The best professional IT content on the web</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,300i,400" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
 
 	<!-- Font Awesome JS -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -18,7 +19,8 @@
 
 	<!-- Custom css code -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/side-bar.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/side-bar.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/mega-menu.css">
 </head>
 <body>
 	<header>
@@ -31,7 +33,80 @@
 
 			<div class="right-floats">
 				<div class="menu-top">
-					<ul>
+					<ul class="first-nav">
+						<li class="nav-item dropdown">
+						      <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #20B2AA !important;">
+						        <i class="fa fa-list"> </i> Explore
+						      </a>
+						      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						      	<div class="container">
+						      		<div class="row">
+						      			<div class="col-md-3">
+						      				<span class="mgmenu title text-uppercase text-white">Web Development</span>
+						      				<ul class="nav flex-column">
+						      					<li class="nav-item">
+						      						<a class="nav-link" href="#"><i class="fab fa-laravel"></i> Laravel</a>
+						      					</li>
+						      					<li class="nav-item">
+						      						 <a class="nav-link" href="#"><i class="fab fa-node-js"></i> NodeJS</a>
+						      					</li>
+						      					<li class="nav-item">
+						      						<a class="nav-link" href="#"><i class="fab fa-angular"></i> Angular</a>
+						      					</li>
+						      				</ul>
+						      			</div>
+						      			<!-- /.col-md-4  -->
+						      			<div class="col-md-3">
+						      				<span class="mgmenu text-uppercase text-white">Mobile Development</span>
+						      				<ul class="nav flex-column">
+						      					<li class="nav-item">
+						      						<a class="nav-link" href="#"><i class="fab fa-android"></i> Android</a>
+						      					</li>
+						      					<li class="nav-item">
+						      						<a class="nav-link" href="#"><i class="fab fa-apple"></i> iPhone</a>
+						      					</li>
+						      				</ul>
+						      			</div>
+						      			<!-- /.col-md-4  -->
+						      			<div class="col-md-3">
+						      				<div class="col-md-3">
+						      					<span class="mgmenu text-uppercase text-white">Utilities</span>
+						      					<ul class="nav flex-column">
+						      						<li class="nav-item">
+						      							<a class="nav-link" href="#"><i class="fab fa-git-square"></i> Git</a>
+						      						</li>
+						      						<li class="nav-item">
+						      							<a class="nav-link" href="#"><i class="fab fa-youtube"></i> Videos</a>
+						      						</li>
+						      						<li class="nav-item">
+						      							<a class="nav-link" href="#"><i class="fab fa-grunt"></i> Grunt</a>
+						      						</li>
+						      					</ul>
+						      				</div>
+						      			</div>
+						      			<!-- /.col-md-4  -->
+						      			<div class="col-md-3">
+						      				<div class="col-md-3">
+						      					<span class="mgmenu text-uppercase text-white">Programming</span>
+						      					<ul class="nav flex-column">
+						      						<li class="nav-item">
+						      							<a class="nav-link" href="#"><i class="fab fa-js-square"></i> JavaScript</a>
+						      						</li>
+						      						<li class="nav-item">
+						      							 <a class="nav-link" href="#"><i class="fab fa-html5"></i> Html5</a>
+						      						</li>
+						      						<li class="nav-item">
+						      							 <a class="nav-link" href="#"><i class="fab fa-css3-alt"></i> CSS3</a>
+						      						</li>
+						      					</ul>
+						      				</div>
+						      			</div>
+						      			<!-- /.col-md-4  -->
+						      		</div>
+						      	</div>
+						      	<!--  /.container  -->
+						      </div>
+						    </li>
 						<li><a href="mailTo:tony14pro@gmail.com">Contact-Us</a></li>
 						<li><a href="#" class="ml-3 btn btn-sm btn-success"><i class="fa fa-sign-in-alt" aria-hidden="true"></i> Connect now</a></li>
 					</ul>
@@ -39,64 +114,163 @@
 			</div>
 		</div>
 	</header>
-	<div class="container wraper">
-		<div id="wrapper" class="toggled">
+	<div class="banner-section">
+		<div class="container wraper">
+			<div id="wrapper" class="toggled">
 
-		        <!-- Sidebar -->
-		        <div id="sidebar-wrapper">
-		            <ul class="sidebar-nav">
-		                <li class="first-item">
-		                    <a href="#"><i class="fab fa-laravel"></i> Laravel</a>
-		                </li>
-		                <li>
-		                    <a href="#"><i class="fab fa-js-square"></i> JavaScript</a>
-		                </li>
-		                <li>
-		                    <a href="#"><i class="fab fa-node-js"></i> NodeJS</a>
-		                </li>
-		                <li>
-		                    <a href="#"><i class="fab fa-html5"></i> Html</a>
-		                </li>
-		                <li>
-		                    <a href="#"><i class="fab fa-css3-alt"></i> Css</a>
-		                </li>
-		                <li>
-		                    <a href="#"><i class="fab fa-git-square"></i> Git</a>
-		                </li>
-		                <li>
-		                    <a href="#"><i class="fab fa-android"></i> Android</a>
-		                </li>
-		                <li>
-		                    <a href="#"><i class="fab fa-youtube"></i> Videos</a>
-		                </li>
-		            </ul>
-		        </div>
-		        <!-- /#sidebar-wrapper -->
+			        <!-- Sidebar
+			        <div id="sidebar-wrapper">
+			            <ul class="sidebar-nav">
+			                <li>
+			                    <a href="#"><i class="fab fa-html5"></i> Html</a>
+			                </li>
+			                <li>
+			                    <a href="#"><i class="fab fa-css3-alt"></i> Css</a>
+			                </li>
+			                <li>
+			                    <a href="#"><i class="fab fa-git-square"></i> Git</a>
+			                </li>
+			                <li>
+			                    <a href="#"><i class="fab fa-youtube"></i> Videos</a>
+			                </li>
+			            </ul>
+			        </div>
+			        /#sidebar-wrapper -->
 
-		        <!-- Page Content -->
-		        <div id="page-content-wrapper">
-		            <div class="container-fluid">
-		                <h1>Become a professional today</h1>
-		                <p>This plateform will be used to share only professional contents. We will be putting text-based and videos-based contents and as soon as possible, we will give the possibility to everyone arround the globe to share whatever professional content he think it can help other become professionals. <code>#be-pro</code>.</p>
-		                <!-- <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a> -->
-		            </div>
+			        <!-- Page Content -->
+			        <div id="page-content-wrapper">
+			            <div class="container-fluid text-center">
+			                <h1 class="main-title">Yes, You Can
+			                	<br>Become A pro too</h1>
+			                <span class="sub-title">Learn or Share, Professional Contents in your domain.</span>
+			                <!-- <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a> -->
+			            </div>
 
-		            <footer class="container-fluid">
-		            	&copy; tonypro, 2018.
-		            </footer>
-		        </div>
-		        <!-- /#page-content-wrapper -->
-
-		        
-
-		    </div>
-		    <!-- /#wrapper -->		
+			        </div>
+			        <!-- /#page-content-wrapper -->
+			    </div>
+			    <!-- /#wrapper -->		
+		</div>
+	</div>	
+	<div class="tag-line text-center">
+		<span class="tag">
+			<a href="#" class="tag-link"><i class="tag-icon fab fa-git-square"></i> Version Control</a>
+		</span>
+		<span class="tag">
+			<a href="#" class="tag-link"><i class="tag-icon fab fa-youtube"></i> Videos</a>
+		</span>
+		<span class="tag">
+			<a class="tag-link" href="#"><i class="tag-icon fab fa-laravel"></i> Laravel</a>
+		</span>
+		<span class="tag">
+			<a class="tag-link" href="#"><i class="tag-icon fab fa-angular"></i> Angular</a>
+		</span>
+		<span class="tag">
+			<a class="tag-link" href="#"><i class="tag-icon fab fa-js-square"></i> JavaScript</a>
+		</span>
 	</div>
-	
+
+
+	<section class="container">
+		<div class="row mt-4 p-4">
+			<div class="col-md-4 mb-4">
+				<div class="card">
+				  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <div class="card-text">
+				    	<a class="read-more-icon" href="#">
+				    		<img src="assets/images/chevron-sign-right.svg" width="40">
+				    	</a>
+				    	<a href="#" class="crad-title">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+				    </div>
+				  </div>
+				  <div class="card-footer footer-bg border-top">
+				  	<ul class="list-unstyled list-inline font-small">
+		              <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock pr-1"></i>05/10/2015</li>
+		              <li class="list-inline-item pr-2"><i class="fa fa-comments pr-1"></i>12</li>
+		              <li class="list-inline-item pr-2"><i class="fa fa-eye pr-1"> </i>21</li>
+		              <li class="list-inline-item pr-2"> 5mins</li>
+		            </ul>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mb-4">
+				<div class="card">
+				  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <div class="card-text">
+				    	<a class="read-more-icon" href="#">
+				    		<img src="assets/images/chevron-sign-right.svg" width="40">
+				    	</a>
+				    	<a href="#" class="crad-title">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+				    </div>
+				  </div>
+				  <div class="card-footer footer-bg border-top">
+				  	<ul class="list-unstyled list-inline font-small">
+		              <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock pr-1"></i>05/10/2015</li>
+		              <li class="list-inline-item pr-2"><i class="fa fa-comments pr-1"></i>12</li>
+		              <li class="list-inline-item pr-2"><i class="fa fa-eye pr-1"> </i>21</li>
+		              <li class="list-inline-item pr-2"> 5mins</li>
+		            </ul>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mb-4">
+				<div class="card">
+				  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <div class="card-text">
+				    	<a class="read-more-icon" href="#">
+				    		<img src="assets/images/chevron-sign-right.svg" width="40">
+				    	</a>
+				    	<a href="#" class="crad-title">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+				    </div>
+				  </div>
+				  <div class="card-footer footer-bg border-top">
+				  	<ul class="list-unstyled list-inline font-small">
+		              <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock pr-1"></i>05/10/2015</li>
+		              <li class="list-inline-item pr-2"><i class="fa fa-comments pr-1"></i>12</li>
+		              <li class="list-inline-item pr-2"><i class="fa fa-eye pr-1"> </i>21</li>
+		              <li class="list-inline-item pr-2"> 5mins</li>
+		            </ul>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4 mb-4">
+				<div class="card">
+				  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <div class="card-text">
+				    	<a class="read-more-icon" href="#">
+				    		<img src="assets/images/chevron-sign-right.svg" width="40">
+				    	</a>
+				    	<a href="#" class="crad-title">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+				    </div>
+				  </div>
+				  <div class="card-footer footer-bg border-top">
+				  	<ul class="list-unstyled list-inline font-small">
+		              <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock pr-1"></i>05/10/2015</li>
+		              <li class="list-inline-item pr-2"><i class="fa fa-comments pr-1"></i>12</li>
+		              <li class="list-inline-item pr-2"><i class="fa fa-eye pr-1"> </i>21</li>
+		              <li class="list-inline-item pr-2"> 5mins</li>
+		            </ul>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="text-center">
+			<p>&copy; 2018 <a href="https:bproo.com">bproo Inc</a>, all rights reserved.</a></p>
+		</div>
+	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+	<script type="text/javascript" src="assets/js/mega-menu.js"></script>
 
 	<!-- Menu Toggle Script -->
     <script>
@@ -105,5 +279,6 @@
 	        $("#wrapper").toggleClass("toggled");
 	    });
     </script>
+
 </body>
 </html>

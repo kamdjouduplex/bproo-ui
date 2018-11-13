@@ -1,0 +1,64 @@
+header{
+  z-index: 10000 !important;
+}
+
+
+.menu-top .dropdown-menu {
+  width: 80% !important;
+  margin: 54px auto !important;
+  background: -webkit-linear-gradient(65deg,#8854d0,#3867d6)!important;
+  background: -o-linear-gradient(65deg,#8854d0,#3867d6)!important;
+  background: linear-gradient(65deg,#8854d0,#3867d6)!important;
+}
+
+
+@media (min-width: 768px){
+  .col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 100%;
+  }  
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+.menu-top .nav-item {
+  padding:.5rem .5rem;
+  margin:0 .25rem;
+}
+
+/* makes the dropdown full width  */
+.menu-top .dropdown {position:static;}
+
+.menu-top .dropdown-menu {
+  width:100%;
+  left:0;
+  right:0;
+/*  height of nav-item  */
+  top:45px;
+}
+  
+  /* shows the dropdown menu on hover */
+.menu-top .dropdown:hover .dropdown-menu, .menu-top .dropdown .dropdown-menu:hover {
+  display:block!important;
+}
+  
+  .menu-top .dropdown-menu {
+    border: 1px solid rgba(0,0,0,.15);
+    background-color: #fff;
+  }
+
+}
+
+
+.nav-item a{
+  color: #fff !important;
+}
+.nav-item a:hover{
+  color: #ddd !important;
+}
+
+.mgmenu{
+  font-weight: 500;
+}

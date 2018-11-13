@@ -1,0 +1,66 @@
+.detail-wraper{
+	padding-top: 100px;
+	width: 100%;
+	background: #fff;
+}
+
+
+h1, h2, h3, h4{
+	font-family: 'Marck Script', cursive;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-size: 42px;
+	font-weight: 600;
+	color: rgba(0,0,0,.84);
+}
+
+.author{
+	margin-top: 35px;
+}
+.author-name{
+	text-transform: lowercase;
+	font-size: 17px !important;
+	font-weight: 700;
+	color: rgba(0,0,0,.7);
+}
+
+.author-bio{
+	text-transform: lowercase;
+	font-size: 15px !important;
+	font-weight: 500;
+	color: rgba(0,0,0,.6);
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+.author-followers{
+	color: rgba(0,0,5,.5);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.author-follow{
+	margin-left: -6px;
+	border-radius: 15px;
+	padding: 3px 15px;
+	border: 2px solid #05ab9f;
+}
+
+.post-content img{
+	margin: 20px auto;
+	width: 99%;
+}
+
+.post-content h2{
+	font-size: 35px;
+	font-weight: 500;
+	color: rgba(0,0,0,.84);
+}
+
+.post-content p{
+	font-size: 20px !important;
+	font-weight: 500;
+	color: rgba(0,0,0,.8);
+	margin: 20px 0;
+	font-family: 'Nunito', sans-serif;
+}

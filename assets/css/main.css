@@ -1,9 +1,15 @@
+/* colors: 
+
+purple: #8854d0;
+blue  : #3867d6;
+green : #0fb9b1; */
+
 
 /**************header****************************************************/
 body {
    	background: #f5f5f5;
     color: #888;
-    font: 300 16px/22px 'Nunito', "Open Sans", Arial, sans-serif;
+    font: 300 16px/22px Arial, 'Nunito', "Open Sans", Arial, sans-serif;
 }
 
 header{
@@ -100,6 +106,92 @@ a:hover{
 /*******************content**********************/
 .wraper{
 	padding: 100px 30px;
+}
+
+.banner-section{
+	padding-top: 120px !important;
+
+	background: #05ab9f;
+	background: -webkit-linear-gradient(50deg,#05ffa3,#2096ff);
+	background: -o-linear-gradient(50deg,#05ffa3,#2096ff);
+	background: linear-gradient(40deg,#05ffa3,#2096ff);
+	
+
+	background: url("../images/bproo-become-professional-in-it.png") no-repeat center center fixed;
+	background-size: cover;
+	min-height: 95vh;
+	overflow: hidden;
+
+	
+	color: #fff;
+}
+
+
+.main-title{
+	text-transform: uppercase;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 62px;
+	font-weight: 900;
+	margin-bottom: 10%;
+}
+
+.sub-title{
+	text-transform: lowercase;
+	font-family: 'Marck Script', cursive;
+	font-size: 50px !important;
+	font-weight: 400;
+}
+
+.tag-line{
+	background: #fff;
+	width: 80%;
+	padding: 16px;
+	margin: 0 auto; 
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+	border-radius: 12px;
+}
+
+.tag-line{
+	margin-top: -26px; 
+}
+
+.tag{
+	margin: 0 10px;
+}
+
+.tag-link{
+	border: 2px solid #8854d0;
+	border-radius: 20px;
+	padding: 8px 15px;
+}
+
+.tag-link{
+	color: #8854d0;
+}
+
+.tag-link:hover{
+	background-color: #8854d0;
+	color: #fff;
+}
+
+
+.crad-title{
+	font-family: 'Nunito', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.footer-bg{
+	background-color: #8202bf5e!important;
+	color: #fff;
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.read-more-icon{
+	display: block;
+	text-align: right;
+	margin-top: -43px;
 }
 
 footer{
